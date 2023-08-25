@@ -18,7 +18,8 @@ class HomeController
     }
     public function home()
     {
-        $secret = 'fdsfsgfdfds';
-        $this->view->render("index.php");
+        $this->view->render("index.php", [
+            'tittle' => 'Home Page'
+        ]);
     }
 }
