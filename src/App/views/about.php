@@ -8,6 +8,7 @@
 
     <!-- Escaping Data -->
     <p>Escaping Data: </p>
+    <?php echo e($dangerousData) ?>
 </section>
 <!-- End Main Content Area -->
 
