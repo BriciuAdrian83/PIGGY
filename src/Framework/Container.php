@@ -10,6 +10,8 @@ class Container
 
     public function addDefinitions(array $newDefinitions)
     {
+        // $this->definitions = [...$this->definitions, ...$newDefinitions];
+        $this->definitions = array_merge($this->definitions, $newDefinitions);
         dd($newDefinitions);
     }
 }
